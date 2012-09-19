@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">iTagxml</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	<string name="second_label">Tag</string>
+	<string name="third_label">Scan</string>
+	<string name="four_label">Big</string>
+	<string name="fifth_label">Delete</string>
+	<string name="fifth2_label">Choose</string>
+	<string name="six_label">Change</string>
+	<string name="six2_label">Change</string>
+	<string name="seventh_label">Add</string>
+</resources>
