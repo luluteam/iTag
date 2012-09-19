@@ -69,33 +69,44 @@ public final class R {
         public static final int rightbac=0x7f020032;
         public static final int submitb=0x7f020033;
         public static final int sure=0x7f020034;
-        public static final int tag=0x7f020035;
+        public static final int tabdb=0x7f020035;
+        public static final int tag=0x7f020036;
+        public static final int tb4=0x7f020037;
+        public static final int tb5=0x7f020038;
+        public static final int tb6=0x7f020039;
+        public static final int tb7=0x7f02003a;
+        public static final int tb8=0x7f02003b;
+        public static final int title=0x7f02003c;
     }
     public static final class id {
-        public static final int _id=0x7f08000e;
-        public static final int button1=0x7f080004;
-        public static final int button2=0x7f080000;
-        public static final int button3=0x7f080002;
+        public static final int _id=0x7f080012;
+        public static final int button1=0x7f080002;
+        public static final int button2=0x7f080005;
+        public static final int button3=0x7f080004;
         public static final int button4=0x7f080003;
         public static final int button5=0x7f08000a;
         public static final int button6=0x7f08000b;
         public static final int button7=0x7f080009;
-        public static final int checkBox1=0x7f08000c;
-        public static final int editText1=0x7f080012;
+        public static final int checkBox1=0x7f08000f;
+        public static final int editText1=0x7f080016;
         public static final int gridView1=0x7f080006;
-        public static final int gridview=0x7f080016;
-        public static final int imageView1=0x7f080007;
-        public static final int imageView2=0x7f080001;
-        public static final int listView1=0x7f080011;
-        public static final int menu_settings=0x7f080017;
-        public static final int tag=0x7f08000f;
-        public static final int tcbtn=0x7f080005;
-        public static final int textView1=0x7f080008;
-        public static final int textView2=0x7f08000d;
-        public static final int uri=0x7f080010;
-        public static final int widget78=0x7f080013;
-        public static final int widget83=0x7f080014;
-        public static final int widget84=0x7f080015;
+        public static final int gridview=0x7f08001a;
+        public static final int imageView1=0x7f08000d;
+        public static final int imageView2=0x7f080000;
+        public static final int include1=0x7f08000c;
+        public static final int linearLayout1=0x7f080007;
+        public static final int listView1=0x7f080015;
+        public static final int menu_settings=0x7f08001b;
+        public static final int relativeLayout1=0x7f080008;
+        public static final int t1=0x7f08000e;
+        public static final int tag=0x7f080013;
+        public static final int tcbtn=0x7f080001;
+        public static final int textView1=0x7f080010;
+        public static final int textView2=0x7f080011;
+        public static final int uri=0x7f080014;
+        public static final int widget78=0x7f080017;
+        public static final int widget83=0x7f080018;
+        public static final int widget84=0x7f080019;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -110,7 +121,8 @@ public final class R {
         public static final int seventh=0x7f030009;
         public static final int sixth=0x7f03000a;
         public static final int sixth2=0x7f03000b;
-        public static final int third=0x7f03000c;
+        public static final int test=0x7f03000c;
+        public static final int third=0x7f03000d;
     }
     public static final class menu {
         public static final int activity_main=0x7f070000;

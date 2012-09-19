@@ -73,7 +73,7 @@ public class Four extends BaseActivity {
 		btn_set = (Button) findViewById(R.id.button5);
 		btn_del = (Button) findViewById(R.id.button6);
 		btn_right = (Button) findViewById(R.id.button7);
-		tags = (TextView) findViewById(R.id.textView1);
+		tags = (TextView) findViewById(R.id.t1);
 		image = (ImageView) findViewById(R.id.imageView1);
 		image.setImageBitmap(getPic(purl));
 //		btn_left.setOnClickListener(this);

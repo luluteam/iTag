@@ -102,11 +102,12 @@
             <requestFocus />
         </EditText>
     </LinearLayout>
-
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_weight="0.01"
+        android:background="@drawable/tb5"
         android:paddingLeft="@dimen/padding_large"
         android:paddingRight="@dimen/padding_large" >
 
