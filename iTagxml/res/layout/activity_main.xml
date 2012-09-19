@@ -4,17 +4,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/a3" >
 
-    <!--
-         ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/itag1" /
-    -->
 
     <ImageView
         android:id="@+id/imageView2"
@@ -38,7 +27,6 @@
 
     <Button
         android:id="@+id/button1"
-        style="@drawable/itag2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
