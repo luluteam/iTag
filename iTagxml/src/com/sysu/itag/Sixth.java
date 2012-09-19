@@ -1,13 +1,9 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -22,6 +18,8 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class Sixth extends BaseActivity{
 	

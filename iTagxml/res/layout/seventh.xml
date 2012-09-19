@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/a3"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:context=".Seventh" >
 
- <include  layout="@layout/header"/>
-    <!--  RelativeLayout
+    <include layout="@layout/header" />
+    <!--
+    RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.22" >
@@ -39,14 +42,14 @@
             android:layout_alignParentTop="true"
             android:background="@drawable/icon_zoom_out" />
 
-    </RelativeLayout-->
-
+    </RelativeLayout
+    -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="3.24"
         android:orientation="vertical" >
-
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -62,11 +65,8 @@
                 android:layout_alignRight="@+id/imageView2"
                 android:layout_alignTop="@+id/imageView2"
                 android:layout_marginRight="28dp"
-                android:text="picname" /
-
+                android:text="picname" /
             -->
-
-
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -75,16 +75,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:src="@drawable/bakeneko" />
-
-
-
-
-
-
-
-
-
-
+
             <GridView
                 android:id="@+id/gridView1"
                 android:layout_width="100dp"
@@ -92,10 +83,11 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
                 android:layout_alignTop="@+id/imageView2"
+                android:layout_marginLeft="@dimen/padding_small"
                 android:numColumns="1"
-                android:padding="@dimen/padding_medium" >
-            </GridView>
+                android:padding="@dimen/padding_small" >
 
+            </GridView>
         </RelativeLayout>
 
         <EditText
@@ -111,14 +103,12 @@
         </EditText>
     </LinearLayout>
 
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_weight="0.01"
         android:paddingLeft="@dimen/padding_large"
         android:paddingRight="@dimen/padding_large" >
-
 
         <Button
             android:id="@+id/button3"
@@ -129,7 +119,7 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/submitb"
             android:focusable="false" />
-
+
         <Button
             android:id="@+id/button6"
             android:layout_width="wrap_content"
@@ -149,7 +139,6 @@
             android:layout_marginLeft="46dp"
             android:layout_toRightOf="@+id/button3"
             android:background="@drawable/canclet" />
-
     </RelativeLayout>
 
 </LinearLayout>

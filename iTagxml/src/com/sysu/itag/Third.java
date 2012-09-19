@@ -1,12 +1,9 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -19,15 +16,14 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.BaseAdapter;
 import android.widget.Button;
-import android.widget.Gallery;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class Third extends BaseActivity{
 	

@@ -1,12 +1,9 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentResolver;
 import android.content.DialogInterface;
@@ -26,6 +23,8 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.SimpleAdapter;
 import android.widget.Toast;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class Fifth extends BaseActivity{
 	

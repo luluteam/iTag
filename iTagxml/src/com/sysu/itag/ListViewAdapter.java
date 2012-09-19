@@ -1,4 +1,4 @@
-package com.example.itagxml;
+package com.sysu.itag;
 import java.util.ArrayList;
 import java.util.HashMap;
 

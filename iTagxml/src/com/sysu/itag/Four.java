@@ -1,13 +1,10 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
-import java.awt.Image;
+//import java.awt.Image;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.database.Cursor;
@@ -15,19 +12,14 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.ContactsContract.CommonDataKinds.Im;
-import android.support.v4.view.ViewPager.LayoutParams;
-import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.ImageSwitcher;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.ViewSwitcher.ViewFactory;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class Four extends BaseActivity {
 	

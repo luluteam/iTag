@@ -1,4 +1,4 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.AdapterView.OnItemClickListener;
 
 import com.lovedayluk.database.DataBaseHelper;
 
@@ -87,9 +87,9 @@ public class Second extends BaseActivity{
 	public void setListView(){
 		listview = (ListView) findViewById(R.id.listView1);
 		adapter = new SimpleAdapter(Second.this,
-			listData,// 数据源
+			listData,// 数据�?
 			R.layout.list_items,// ListItem的XML实现
-			// 动态数组与ImageItem对应的子项
+			// 动�?数组与ImageItem对应的子�?
 			new String[] {"tag"},
 			// ImageItem的XML文件里面的一个ImageView,两个TextView ID
 			new int[] { R.id.tag});

@@ -1,13 +1,9 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.database.Cursor;
@@ -15,8 +11,6 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager.LayoutParams;
-import android.support.v4.widget.SimpleCursorAdapter;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
@@ -30,6 +24,8 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class Seventh extends BaseActivity{
 
@@ -89,7 +85,7 @@ public class Seventh extends BaseActivity{
 			SimpleAdapter sa=new SimpleAdapter(
 	                this, //上下文环境
 	               listData,     //数据源
-	                R.layout.gridrow,  //内容布局
+	                R.layout.sixth2,  //内容布局
 	                new String[]{"tag"},   //数据源的arrayName
 	                new int[]{R.id.textView1}  //装载数据的控件
 			);   

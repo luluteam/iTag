@@ -1,16 +1,13 @@
-package com.example.itagxml;
+package com.sysu.itag;
 
 import java.io.FileNotFoundException;
 
-import com.lovedayluk.database.DataBaseHelper;
-
-import android.net.Uri;
-import android.os.Bundle;
-import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,8 +16,8 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
-import android.support.v4.app.NavUtils;
+
+import com.lovedayluk.database.DataBaseHelper;
 
 public class MainActivity extends BaseActivity {
 
